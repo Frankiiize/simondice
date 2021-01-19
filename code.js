@@ -3,7 +3,7 @@ const violeta = document.getElementById('violeta')
 const naranja = document.getElementById('naranja')
 const verde = document.getElementById('verde')
 const btnEmpezar = document.getElementById('btnEmpezar')
-const ULTIMO_NIVEL = 3
+const ULTIMO_NIVEL = 10
 
 /* Swal.fire({
     title: "Bienvenido",
@@ -23,7 +23,7 @@ class Juego {
     iniciarlizar(){
         this.siguienteNivel = this.siguienteNivel.bind(this)
         this.elegirColor = this.elegirColor.bind(this)
-        this.toggleBtnEmpezar()
+        this.toggleBtnEmpezar() 
         this.nivel = 1
         this.colores = {
             celeste,
